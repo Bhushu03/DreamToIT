@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login To Neostox]]>
+    </line>
+    <line>
+      <![CDATA[implicit wait is]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from excel row is0cell is0]]>
+    </line>
+    <line>
+      <![CDATA[Sign In To Neostox]]>
+    </line>
+    <line>
+      <![CDATA[implicit wait is]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from excel row is0cell is1]]>
+    </line>
+    <line>
+      <![CDATA[Enter password Neostox]]>
+    </line>
+    <line>
+      <![CDATA[implicit wait is]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from excel row is0cell is2]]>
+    </line>
+    <line>
+      <![CDATA[Get Neostox Username]]>
+    </line>
+    <line>
+      <![CDATA[takig ScreenShot]]>
+    </line>
+    <line>
+      <![CDATA[Logout From NeoStox]]>
+    </line>
+    <line>
+      <![CDATA[closing Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-17T18:32:37 IST" name="Default suite" finished-at="2023-01-17T18:36:27 IST" duration-ms="229817">
+    <groups>
+    </groups>
+    <test started-at="2023-01-17T18:32:37 IST" name="Default test" finished-at="2023-01-17T18:36:27 IST" duration-ms="229817">
+      <class name="neoStox_TEST.validateNeoStoxUserName">
+        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:neoStox_TEST.validateNeoStoxUserName@229c6181]" started-at="2023-01-17T18:32:37 IST" name="launchingBrowser" finished-at="2023-01-17T18:33:42 IST" duration-ms="65231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingBrowser -->
+        <test-method is-config="true" signature="loginToNeoStox()[pri:0, instance:neoStox_TEST.validateNeoStoxUserName@229c6181]" started-at="2023-01-17T18:33:42 IST" name="loginToNeoStox" finished-at="2023-01-17T18:35:36 IST" duration-ms="113929" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login To Neostox]]>
+            </line>
+            <line>
+              <![CDATA[implicit wait is]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from excel row is0cell is0]]>
+            </line>
+            <line>
+              <![CDATA[Sign In To Neostox]]>
+            </line>
+            <line>
+              <![CDATA[implicit wait is]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from excel row is0cell is1]]>
+            </line>
+            <line>
+              <![CDATA[Enter password Neostox]]>
+            </line>
+            <line>
+              <![CDATA[implicit wait is]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToNeoStox -->
+        <test-method signature="validateUserName()[pri:0, instance:neoStox_TEST.validateNeoStoxUserName@229c6181]" started-at="2023-01-17T18:35:36 IST" name="validateUserName" finished-at="2023-01-17T18:35:43 IST" duration-ms="6786" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reading data from excel row is0cell is2]]>
+            </line>
+            <line>
+              <![CDATA[Get Neostox Username]]>
+            </line>
+            <line>
+              <![CDATA[takig ScreenShot]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserName -->
+        <test-method is-config="true" signature="logOutFromNeoStox()[pri:0, instance:neoStox_TEST.validateNeoStoxUserName@229c6181]" started-at="2023-01-17T18:35:43 IST" name="logOutFromNeoStox" finished-at="2023-01-17T18:36:07 IST" duration-ms="23869" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout From NeoStox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOutFromNeoStox -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:neoStox_TEST.validateNeoStoxUserName@229c6181]" started-at="2023-01-17T18:36:07 IST" name="closingBrowser" finished-at="2023-01-17T18:36:27 IST" duration-ms="19748" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- neoStox_TEST.validateNeoStoxUserName -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
