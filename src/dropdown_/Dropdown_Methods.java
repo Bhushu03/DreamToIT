@@ -94,7 +94,29 @@ public class Dropdown_Methods {
 		
 		//VCTC practice page dropdown program
 		
-       System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_win32 (2)\\Chromedriver.exe");
+      /* System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_win32 (2)\\Chromedriver.exe");
+		
+		WebDriver driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
+		
+		Thread.sleep(2000);
+		
+		driver.get("https://vctcpune.com/selenium/practice.html");
+		
+		Thread.sleep(2000);
+		
+		driver.findElement(By.name("dropdown-class-example")).click();
+		
+		WebElement option = driver.findElement(By.id("dropdown-class-example"));
+		
+		Select s = new Select(option);
+		
+		s.selectByVisibleText("Option2");*/
+		
+		System.out.println("==============================");
+		
+System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_win32 (2)\\Chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		
